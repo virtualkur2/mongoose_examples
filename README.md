@@ -7,7 +7,7 @@ This idea was born because I'm a collaborator on Stack Overflow (spanish mainly)
 
 **BASIC USAGE**
 
-Simply clone the repository, and run `npm --install` to install dependencies.
+Simply clone the repository, and run `npm install` to install dependencies.
 
 You need a MongoDB database up and running locally in the default port (27017). The solution was tested with MongoDB version v4.0.6.
 
