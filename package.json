@@ -1,0 +1,36 @@
+{
+  "name": "mongoose-examples",
+  "version": "1.0.0",
+  "description": "mongoose examples",
+  "main": "index.js",
+  "scripts": {
+    "populate": "nodemon --exec babel-node ./populate_example/app.js"
+  },
+  "keywords": [
+    "mongoose"
+  ],
+  "author": "Mauricio Contreras Canepa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.12",
+    "mongoose-unique-validator": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "console-stamp": "^0.2.7",
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-middleware": "^3.5.2",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
