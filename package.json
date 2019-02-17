@@ -9,8 +9,16 @@
   "keywords": [
     "mongoose"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualkur2/mongoose_examples.git"
+  },
   "author": "Mauricio Contreras Canepa",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virtualkur2/mongoose_examples/issues"
+  },
+  "homepage": "https://github.com/virtualkur2/mongoose_examples#readme",
   "dependencies": {
     "express": "^4.16.4",
     "lodash": "^4.17.11",
