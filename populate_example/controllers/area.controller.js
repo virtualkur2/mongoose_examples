@@ -93,7 +93,7 @@ const areaByID = (req, res, next, id) => {
     }
     req.profile = area;
     next();
-  })
+  });
 }
 
 export default {list, read, create, update, listFrom, areaByID}

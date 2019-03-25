@@ -4,7 +4,7 @@ const list = (req, res, next) => {
   User.find((err, users) => {
     if(err) {
       return res.status(400).json({
-        error: 'Server error: ' + err
+        error: 'Server error: ' + err.message
       });
     }
     res.json(users);
